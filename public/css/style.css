@@ -1,0 +1,60 @@
+@import "font.css";
+
+body {
+    font-family: "Sukhumvit Set";
+    background-color: #f7f7f7;
+}
+h1{
+    font-size: 25px;
+    font-weight: bold;
+}
+#sidenav {
+    z-index: 1;
+    height: 100%;
+    position: fixed;
+    padding: 0;
+    background-color: #a2ced1;
+    box-shadow: -10px 0 15px 3px #999999;
+}
+#sidenav .nav-link {
+    font-weight: 500;
+    color: #000000;
+}
+#sidenav .nav-link.sub-link {
+    padding-left: 12%;
+    font-weight: 200;
+    color: #272727;
+}
+#sidenav .nav-link:hover, #sidenav .nav-link.sub-link:hover {
+    color: #ffffff;
+}
+#sidenav .nav-link.active, #sidenav .nav-link.sub-link.active {
+    color: #ffffff;
+    background-color: #7cb4b8;
+}
+#sidenav .logo {
+    background-color: #ffffff;
+    padding: 6% 8% 4%;
+}
+#sidenav .btn-logout {
+    margin: 6% 15%;
+    color: #ffffff;
+    background-color: #7cb4b8;
+    border-radius: 25px;
+}
+#sidenav .btn-logout:hover {
+    font-weight: 600;
+    background-color: #76aaad;
+    box-shadow: 3px 3px 4px #a0a0a0;
+}
+.box-content{
+    border-radius: 25px;
+    background-color: #ffffff;
+}
+#content{
+    height: 400px;
+    background-color: #ffffff;
+}
+a.btn, a.btn:hover{
+    color: #ffffff;
+}
